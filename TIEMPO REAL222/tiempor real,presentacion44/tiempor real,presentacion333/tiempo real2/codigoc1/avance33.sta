@@ -1,0 +1,110 @@
+
+ROM used: 15508 (47%)
+          15508 (47%) including unused fragments
+
+          8 Average locations per line
+          15 Average locations per statement
+
+RAM used: 150 (10%) at main() level
+          176 (11%) worst case
+
+Stack used: 15 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1250   952  92  avance33.c
+  354     0   0  ..\..\..\..\..\..\..\Archivos de programa\PICC\devices\18f452.h
+  348    83   8  ..\..\..\..\..\..\..\Archivos de programa\PICC\drivers\LCD.c
+----- -----
+ 1952  1035 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     38   0   1             @delay_ms1
+0     30   0   0             @const75
+0     76   0   3   751  4.5  lcd_read_byte
+0     82   0   2   254  3.7  lcd_read_nibble
+0     68   0   1   391  2.4  lcd_send_nibble
+0     64   0   3   313  3.4  lcd_send_byte
+0    170   1   2   660  4.9  lcd_init
+0     34   0   4   186  5.5  lcd_gotoxy
+0     70   0   1   272  4.1  lcd_putc
+0    860   3   3  1527  5.3  ver_estado_proceso
+0     30   0   5             @MUL1616
+0     22   0   0             @const156
+0     28   0   0             @const157
+0     24   0   0             @const158
+0    356   1   5   971  3.9  ver_cola
+0     32   0   0             @const169
+0     34   0   0             @const170
+0     32   0   0             @const171
+0     32   0   0             @const172
+0     34   0   0             @const173
+0     34   0   0             @const174
+0     32   0   0             @const175
+0     34   0   0             @const176
+0     48   0   0   174  2.7  RDA_isr
+0    678   2   3  1856  6.3  timer0_isr
+0     14   0   0             @const179
+0     34   0   2             @PSTRINGC_9600_31766_31767
+0     48   0   0             @const181
+0     46   0   0             @const182
+0     40   0   3             @DIV88
+0    108   0   2             @PRINTF_U_9600_31766_31767
+0     32   0   3             @PSTRINGCN_9600_31766_31767
+0    164   1   9             @PRINTF_LU_9600_31766_31767
+0     38   0   2             @PSTRINGR_9600_31766_31767
+0     46   0   0             @const194
+0     46   0   0             @const195
+0     18   0   0             @const196
+0     20   0   0             @const198
+0      2   0   0             @const199
+0     32   0   2             @PSTRINGC_93
+0     16   0   0             @const201
+0     22   0   0             @const202
+0     88   0   0    70  1.5  do_proceso1
+0      2   0   0             @const204
+0     10   0   0             @const205
+0     10   0   0             @const206
+0     88   0   0    70  1.5  do_proceso2
+0      2   0   0             @const208
+0     10   0   0             @const209
+0     10   0   0             @const210
+0     88   0   0    70  1.5  do_proceso3
+0      2   0   0             @const212
+0     10   0   0             @const213
+0     10   0   0             @const214
+0      6   0   0    18  1.0  descargar_proceso1
+0      6   0   0    18  1.0  descargar_proceso2
+0      6   0   0    18  1.0  descargar_proceso3
+0   2742   9   2  6561  7.0  do_proceso11
+0   2738   9   2  6318  7.0  do_proceso22
+0   5440  18   2 13807  7.0  do_proceso33
+0    380   1   0  1390  5.8  MAIN
+0      6   0   0             @const223
+0      2   0   0             @const224
+0     12   0   0             @const225
+0     12   0   0             @const226
+0      2   0   0             @const227
+
+Program metrics:
+    Functions               21
+    Statements              1035
+    Comments                226
+    Volume (V)              49729
+    Difficilty (D)          83.8
+    Effort to implement (E) 4165006
+    Time to implement (T)   64 hours, 16 minutes
+    Est Delivered Bugs (B)  9
+    Cyclomatic Complexity   206
+    Maintainability (MI)    19
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000A0   154  0  
+000A2-07FFE  15350  17256  
+
+
+

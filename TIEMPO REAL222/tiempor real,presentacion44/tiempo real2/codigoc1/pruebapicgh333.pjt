@@ -1,0 +1,50 @@
+[Directories]
+Include=C:\Archivos de programa\PICC\devices\;C:\Archivos de programa\PICC\drivers\;
+Library=
+LinkerScript=
+[defines]
+enabled=0
+D1=
+V1=
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[PROJECT]
+Target=pruebapicgh333.hex
+Development_Mode=
+Processor=0x4550
+Processor_Text=PIC18F4550
+ToolSuite=CCS
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion333\tiempo real2\codigoc1\pruebapicgh333.c
+[pruebapicgh333.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion333\tiempo real2\codigoc1\pruebapicgh333.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=pruebapicgh333.c
+2=
+[Units]
+Count=1
+1=pruebapicgh333 (main)

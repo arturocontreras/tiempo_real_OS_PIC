@@ -1,0 +1,86 @@
+
+ROM used: 2498 (30%)
+          3742 (46%) including unused fragments
+
+          2 Average locations per line
+          7 Average locations per statement
+
+RAM used: 34 (9%) at main() level
+          52 (14%) worst case
+
+Stack used: 8 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  412   274  77  avance11.c
+  425     0   0  ..\..\..\..\..\..\Archivos de programa\PICC\devices\16f887.h
+  348    83  23  ..\..\..\..\..\..\Archivos de programa\PICC\drivers\LCD.c
+----- -----
+ 1185   357 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   1   1             @delay_ms1
+0      8   0   0             @const75
+ Inline        3   751  4.5  lcd_read_byte
+0     49   2   2   254  3.7  lcd_read_nibble
+0     43   2   1   391  2.4  lcd_send_nibble
+0     87   3   3   313  3.4  lcd_send_byte
+0     70   3   2   660  4.9  lcd_init
+0     18   1   4   186  5.5  lcd_gotoxy
+0     43   2   1   272  4.1  lcd_putc
+0     10   0   0    37  1.3  RDA_isr
+0     31   1   3    90  2.5  timer0_isr
+0     31   1   0    70  1.5  do_proceso1
+0      1   0   0             @const141
+0     70   3   3             @PSTRINGC7_93
+0      5   0   0             @const143
+0      5   0   0             @const144
+0     72   3   3             @PSTRINGC7_9600_62_63
+0     31   1   0    70  1.5  do_proceso2
+0      1   0   0    70  1.5  @const147
+0      5   0   0             @const148
+0      5   0   0             @const149
+0     31   1   0    70  1.5  do_proceso3
+0      1   0   0    70  1.5  @const151
+0      5   0   0             @const152
+0      5   0   0             @const153
+0     31   1   0    70  1.5  do_proceso4
+0      1   0   0    70  1.5  @const155
+0      5   0   0             @const156
+0      5   0   0             @const157
+ Inline        2  7020  7.0  do_proceso11
+0     21   1   5  8512  8.4  @MUL1616
+1   1694  68   0   931  4.3  MAIN
+0      3   0   0             @const164
+0      1   0   0             @const165
+0      6   0   0   931  4.3  @const166
+0      6   0   0             @const167
+0      1   0   0             @const168
+0      1   0   0             @const169
+0      8   0   0             @const170
+0     11   0   0             @const171
+
+Program metrics:
+    Functions               20
+    Statements              357
+    Comments                195
+    Volume (V)              28915
+    Difficilty (D)          69.2
+    Effort to implement (E) 2002058
+    Time to implement (T)   30 hours, 54 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   121
+    Maintainability (MI)    35
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00037    52  0  
+00038-007FF   748  1244  
+00800-00FFF  1694  354  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

@@ -1,0 +1,40 @@
+[PROJECT]
+Target=avance33.HEX
+Development_Mode=2
+Processor=0x452F
+Processor_Text=PIC18F452
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion2\tiempo real2\codigoc1\avance33.c
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[avance33.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=avance33.c
+
+[Windows]
+0=0000 avance33.c 0 0 796 451 3 0
+
+[Opened Files]
+1=avance33.c
+2=
+3=
+[Units]
+Count=1
+1=avance33 (main)

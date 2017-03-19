@@ -1,0 +1,122 @@
+
+ROM used: 17472 (53%)
+          17472 (53%) including unused fragments
+
+          9 Average locations per line
+          17 Average locations per statement
+
+RAM used: 650 (42%) at main() level
+          676 (44%) worst case
+
+Stack used: 15 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1285   968  92  avance33.c
+  354     0   0  ..\..\..\..\..\..\Program Files (x86)\PICC\devices\18f452.h
+  348    83   8  ..\..\..\..\..\..\Program Files (x86)\PICC\drivers\LCD.c
+----- -----
+ 1987  1051 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0   1             @delay_ms1
+0     30   0   0             @const75
+0     80   0   3   751  4.5  lcd_read_byte
+0     86   0   2   254  3.7  lcd_read_nibble
+0     72   0   1   391  2.4  lcd_send_nibble
+0     76   0   3   313  3.4  lcd_send_byte
+0    198   1   2   660  4.9  lcd_init
+0     38   0   4   186  5.5  lcd_gotoxy
+0     94   0   1   272  4.1  lcd_putc
+0    978   3   3  1527  5.3  ver_estado_proceso
+0     34   0   5             @MUL1616
+0     22   0   0             @const161
+0     28   0   0             @const162
+0     24   0   0             @const163
+0    408   1   5   971  3.9  ver_cola
+0     32   0   0             @const174
+0     34   0   0             @const175
+0     32   0   0             @const176
+0     32   0   0             @const177
+0     34   0   0             @const178
+0     34   0   0             @const179
+0     32   0   0             @const180
+0     34   0   0             @const181
+0     60   0   0   174  2.7  RDA_isr
+0    802   2   3  1856  6.3  timer0_isr
+0     14   0   0             @const184
+0     34   0   2             @PSTRINGC_9600_31766_31767
+0     48   0   0             @const186
+0     46   0   0             @const187
+0     44   0   3             @DIV88
+0    126   0   2             @PRINTF_U_9600_31766_31767
+0     42   0   3             @PSTRINGCN_9600_31766_31767
+0    170   0   9             @PRINTF_LU_9600_31766_31767
+0     38   0   2             @PSTRINGR_9600_31766_31767
+0     46   0   0             @const199
+0     46   0   0             @const200
+0     18   0   0             @const201
+0     20   0   0             @const203
+0      2   0   0             @const204
+0     32   0   2             @PSTRINGC_93
+0     16   0   0             @const206
+0     22   0   0             @const207
+0     88   0   0    70  1.5  do_proceso1
+0      2   0   0             @const209
+0     10   0   0             @const210
+0     10   0   0             @const211
+0     88   0   0    70  1.5  do_proceso2
+0      2   0   0             @const213
+0     10   0   0             @const214
+0     10   0   0             @const215
+0     88   0   0    70  1.5  do_proceso3
+0      2   0   0             @const217
+0     10   0   0             @const218
+0     10   0   0             @const219
+0      6   0   0    18  1.0  descargar_proceso1
+0      6   0   0    18  1.0  descargar_proceso2
+0      6   0   0    18  1.0  descargar_proceso3
+0      2   0   0  6318  7.0  @const224
+0     10   0   0 13807  7.0  @const225
+0      2   0   0  1390  5.8  @const226
+0      2   0   0             @const228
+0     10   0   0             @const229
+0      2   0   0             @const230
+0      2   0   0             @const232
+0     10   0   0             @const233
+0      2   0   0             @const234
+0      2   0   0             @const236
+0     10   0   0             @const237
+0      2   0   0             @const238
+0   3108   9   2  6561  7.0  do_proceso11
+0   3102   9   2  6318  7.0  do_proceso22
+0   6166  18   2 13807  7.0  do_proceso33
+0    402   1   0  1390  5.8  MAIN
+0      6   0   0             @const244
+0      2   0   0             @const245
+0     12   0   0             @const246
+0     12   0   0             @const247
+0      2   0   0             @const248
+
+Program metrics:
+    Functions               24
+    Statements              1051
+    Comments                235
+    Volume (V)              80872
+    Difficilty (D)          103.9
+    Effort to implement (E) 8402279
+    Time to implement (T)   129 hours, 40 minutes
+    Est Delivered Bugs (B)  14
+    Cyclomatic Complexity   336
+    Maintainability (MI)    15
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000A0   154  0  
+000A2-07FFE  17314  15292  
+
+
+

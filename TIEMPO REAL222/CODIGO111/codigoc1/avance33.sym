@@ -1,0 +1,257 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     aa
+018     bb
+019     cc
+01A     tecla_pulsada
+01B     mensaje_recibido
+01C     contador1
+01D     contador2
+01E     contador3
+01F     copia1
+020     copia2
+021     copia3
+022-02D est1
+02E-039 est2
+03A-045 est3
+046     flag_ver
+047     flag_procesador
+048     flag_so
+049-04A acc1
+04B-04C acc2
+04D-04E acc3
+04F     cola1
+050     cola2
+051     cola3
+052-065 col_fijo
+066-067 time1
+068-069 time2
+06A-06B time3
+06C-06D quantum
+06E-06F acumulador
+070-081 pcb
+082-084 cola
+085-098 col
+099     lcd_init.i
+099     do_proceso11.@SCRATCH1
+099     do_proceso22.@SCRATCH1
+099     do_proceso33.@SCRATCH1
+09A     lcd_init.@SCRATCH1
+09A     do_proceso11.@SCRATCH2
+09A     do_proceso22.@SCRATCH2
+09A     do_proceso33.@SCRATCH2
+0A6-0A7 @PRINTF_LU_9600_31766_31767.P1
+0A6     @PRINTF_U_9600_31766_31767.P2
+0A6     ver_cola.a
+0A6     ver_estado_proceso.a
+0A6     @PSTRINGCN_9600_31766_31767.P1
+0A6     timer0_isr.@SCRATCH1
+0A6     @PSTRINGC_9600_31766_31767.@SCRATCH1
+0A6     @PSTRINGR_9600_31766_31767.@SCRATCH1
+0A6     @PSTRINGC_93.@SCRATCH1
+0A7-0A8 @MUL1616.P1
+0A7     @PRINTF_U_9600_31766_31767.P2
+0A7     ver_cola.b
+0A7     ver_estado_proceso.@SCRATCH1
+0A7     timer0_isr.@SCRATCH2
+0A7     @PSTRINGC_9600_31766_31767.@SCRATCH2
+0A7     @PSTRINGCN_9600_31766_31767.@SCRATCH1
+0A7     @PSTRINGR_9600_31766_31767.@SCRATCH2
+0A7     @PSTRINGC_93.@SCRATCH2
+0A8     ver_cola.c
+0A8     lcd_putc.c
+0A8     @DIV88.P1
+0A8     ver_estado_proceso.@SCRATCH2
+0A8     timer0_isr.@SCRATCH3
+0A8     @PSTRINGCN_9600_31766_31767.@SCRATCH2
+0A8     @PRINTF_LU_9600_31766_31767.@SCRATCH1
+0A9     @delay_ms1.P1
+0A9     lcd_gotoxy.x
+0A9     @DIV88.P1
+0A9-0AA @MUL1616.P2
+0A9     ver_cola.@SCRATCH1
+0A9     @PRINTF_LU_9600_31766_31767.@SCRATCH2
+0AA     lcd_gotoxy.y
+0AA     ver_cola.@SCRATCH2
+0AA     @DIV88.@SCRATCH1
+0AA     @PRINTF_LU_9600_31766_31767.@SCRATCH3
+0AB     lcd_gotoxy.address
+0AB     @MUL1616.@SCRATCH1
+0AB     @PRINTF_LU_9600_31766_31767.@SCRATCH4
+0AC     lcd_gotoxy.@SCRATCH1
+0AC     @PRINTF_LU_9600_31766_31767.@SCRATCH5
+0AD     lcd_send_byte.address
+0AD     @PRINTF_LU_9600_31766_31767.@SCRATCH6
+0AE     lcd_send_byte.n
+0AE     @PRINTF_LU_9600_31766_31767.@SCRATCH7
+0AF     lcd_read_byte.low
+0AF     lcd_send_byte.@SCRATCH1
+0B0     lcd_read_byte.high
+0B0     lcd_send_nibble.n
+0B1     lcd_read_nibble.n
+0B1     lcd_read_byte.@SCRATCH1
+0B2     lcd_read_nibble.@SCRATCH1
+F80     port_a
+F81.0   rb0
+F81     port_b
+F81.1   rb1
+F81.2   rb2
+F81.3   rb3
+F81.5   rb5
+F81.6   rb6
+F82     port_c
+F83     PSP_DATA
+F83     port_d
+F84     port_e
+F92     tris_a
+F93     tris_b
+F94     tris_c
+F95     tris_d
+F96     tris_e
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+FFA     PCLATH
+FFB     PCLATU
+FFC     STKPTR
+FFD     TOSL
+FFE     TOSH
+FFF     TOSU
+
+ROM Allocation:
+0246  @delay_ms1
+00A2  LCD_INIT_STRING
+093C  lcd_read_byte
+08EA  lcd_read_nibble
+0988  lcd_send_nibble
+09CC  lcd_send_byte
+0F36  lcd_init
+0A0C  lcd_gotoxy
+0A2E  lcd_putc
+028A  ver_estado_proceso
+026C  @MUL1616
+00C0  @const165
+00D8  @const166
+00F4  @const167
+0786  ver_cola
+010E  @const178
+012E  @const179
+0150  @const180
+0170  @const181
+0190  @const182
+01B2  @const183
+01D4  @const184
+01F4  @const185
+0216  RDA_isr
+0A94  timer0_isr
+0D76  @const188
+05E6  @PSTRINGC_9600_31766_31767
+0D84  @const190
+0DB6  @const191
+0608  @DIV88
+0630  @PRINTF_U_9600_31766_31767
+069C  @PSTRINGCN_9600_31766_31767
+06BC  @PRINTF_LU_9600_31766_31767
+0760  @PSTRINGR_9600_31766_31767
+0DF0  @const203
+0E2A  @const204
+0E64  @const205
+0E82  @const207
+0E96  @const209
+0EAA  @const210
+0A74  @PSTRINGC_93
+0EAC  @const212
+0EBC  @const213
+0FE0  do_proceso1
+0ED2  @const215
+0ED4  @const216
+0EDE  @const217
+1038  do_proceso2
+0EE8  @const219
+0EEA  @const220
+0EF4  @const221
+1090  do_proceso3
+0EFE  @const223
+0F00  @const224
+0F0A  @const225
+3B90  descargar_proceso1
+3B96  descargar_proceso2
+3B9C  descargar_proceso3
+10E8  do_proceso11
+1B9E  do_proceso22
+2650  do_proceso33
+3BA2  MAIN
+0F14  @const234
+0F1A  @const235
+0F1C  @const236
+0F28  @const237
+0F34  @const238
+3BA2  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\oscar\Desktop\CODIGO\codigoc1\
+
+Project Files:
+    avance33.c
+    18f452.h
+    LCD.c
+
+Units:
+    C:\Users\oscar\Desktop\CODIGO\codigoc1\avance33 (main)
+
+Compiler Settings:
+    Processor:      PIC18F452
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      avance33.err
+    Ext Symbols: avance33.esym
+    INHX32:      avance33.hex
+    Symbols:     avance33.sym
+    List:        avance33.lst
+    Debug/COFF:  avance33.cof
+    Project:     avance33.PJT
+    Call Tree:   avance33.tre
+    Statistics:  avance33.sta

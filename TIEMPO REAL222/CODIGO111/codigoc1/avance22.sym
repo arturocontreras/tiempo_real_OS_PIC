@@ -1,0 +1,178 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     tecla_pulsada
+018     mensaje_recibido
+019     contador1
+01A     contador2
+01B     contador3
+01C     contador4
+01D     copia1
+01E     copia2
+01F     copia3
+020     copia4
+021-022 time1
+023-024 time2
+025-026 time3
+027-028 time4
+029-02A quantum
+02B-02C @MUL1616.P1
+02B     lcd_init.i
+02B     @PSTRINGC_93.@SCRATCH1
+02B     @PSTRINGC_9600_31766_31767.@SCRATCH1
+02B     do_proceso11.@SCRATCH1
+02C     lcd_init.@SCRATCH1
+02C     @PSTRINGC_93.@SCRATCH2
+02C     @PSTRINGC_9600_31766_31767.@SCRATCH2
+02C     do_proceso11.@SCRATCH2
+02D-02E @MUL1616.P1
+02D     lcd_putc.c
+02E     lcd_gotoxy.x
+02F     lcd_gotoxy.y
+02F     @MUL1616.@SCRATCH1
+030     lcd_gotoxy.address
+031     lcd_gotoxy.@SCRATCH1
+032     lcd_send_byte.address
+033     lcd_send_byte.n
+034     lcd_read_byte.low
+034     lcd_send_byte.@SCRATCH1
+035     lcd_send_nibble.n
+035     lcd_read_byte.high
+036     lcd_read_nibble.n
+036     lcd_read_byte.@SCRATCH1
+037     lcd_read_nibble.@SCRATCH1
+038     timer0_isr.@SCRATCH1
+039     timer0_isr.@SCRATCH2
+03A     timer0_isr.@SCRATCH3
+03B     @delay_ms1.P1
+F80     port_a
+F81     port_b
+F81.0   rb0
+F81.1   rb1
+F81.2   rb2
+F81.3   rb3
+F81.4   rb4
+F81.5   rb5
+F81.6   rb6
+F82     port_c
+F83     PSP_DATA
+F83     port_d
+F84     port_e
+F92     tris_a
+F93     tris_b
+F94     tris_c
+F95     tris_d
+F96     tris_e
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+00D2  @delay_ms1
+00A2  LCD_INIT_STRING
+0260  lcd_read_byte
+020E  lcd_read_nibble
+01D0  lcd_send_nibble
+02AA  lcd_send_byte
+02EA  lcd_init
+036A  lcd_gotoxy
+038C  lcd_putc
+00C0  RDA_isr
+00FA  timer0_isr
+043E  do_proceso1
+012E  @const140
+03DE  @PSTRINGC_93
+0130  @const142
+013A  @const143
+041C  @PSTRINGC_9600_31766_31767
+0470  do_proceso2
+0144  @const146
+0146  @const147
+0150  @const148
+04A2  do_proceso3
+015A  @const150
+015C  @const151
+0166  @const152
+04D4  do_proceso4
+0170  @const154
+0172  @const155
+017C  @const156
+0506  do_proceso11
+03FE  @MUL1616
+14A6  MAIN
+0186  @const163
+018C  @const164
+018E  @const165
+019A  @const166
+01A6  @const167
+01A8  @const168
+01AA  @const169
+01BA  @const170
+14A6  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\tiempo real2\codigoc1\
+
+Project Files:
+    avance22.c
+    ..\..\..\..\..\..\Archivos de programa\PICC\devices\18f452.h
+    ..\..\..\..\..\..\Archivos de programa\PICC\drivers\LCD.c
+
+Units:
+    C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\tiempo real2\codigoc1\avance22 (main)
+
+Compiler Settings:
+    Processor:      PIC18F452
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      avance22.err
+    Ext Symbols: avance22.esym
+    INHX32:      avance22.hex
+    Symbols:     avance22.sym
+    List:        avance22.lst
+    Debug/COFF:  avance22.cof
+    Project:     avance22.PJT
+    Call Tree:   avance22.tre
+    Statistics:  avance22.sta

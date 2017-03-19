@@ -1,0 +1,77 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+005     MAIN.@SCRATCH1
+006     @delay_ms1.P1
+F80     port_a
+F81.0   rb0
+F81     port_b
+F81.1   rb1
+F81.2   rb2
+F82     port_c
+F83     port_d
+F83     PSP_DATA
+F83.2   rd2
+F83.3   rd3
+F84     port_e
+F92     tris_a
+F93     tris_b
+F94     tris_c
+F95     tris_d
+F96     tris_e
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0004  @delay_ms1
+002A  MAIN
+002A  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion333\tiempo real2\codigoc1\
+
+Project Files:
+    pruebapicgh.c
+    ..\..\..\..\..\..\Archivos de programa\PICC\devices\18f452.h
+    ..\..\..\..\..\..\Archivos de programa\PICC\drivers\LCD.c
+
+Units:
+    C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion333\tiempo real2\codigoc1\pruebapicgh (main)
+
+Compiler Settings:
+    Processor:      PIC18F452
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      pruebapicgh.err
+    Ext Symbols: pruebapicgh.esym
+    INHX32:      pruebapicgh.hex
+    Symbols:     pruebapicgh.sym
+    List:        pruebapicgh.lst
+    Debug/COFF:  pruebapicgh.cof
+    Project:     pruebapicgh.PJT
+    Call Tree:   pruebapicgh.tre
+    Statistics:  pruebapicgh.sta

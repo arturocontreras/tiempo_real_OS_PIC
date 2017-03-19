@@ -1,0 +1,108 @@
+ if(tecla_pulsada=='3'){
+                      for (contador3=1;contador3<=12;contador3++){
+                    copia3=contador3;
+                    if(quantum*contador1<time1){
+                      rb3=1;
+                      rb2=1;
+                      rb1=1;
+                      delay_ms(quantum);
+                      rb3=1;
+                      rb1=0;
+                      rb2=0;
+                      delay_ms(quantum);
+                                               }
+                                               
+                   else  {
+                   
+                          if(quantum*contador2<time2){
+                               rb3=1;
+                               rb2=1;
+                               delay_ms(quantum);
+                               rb3=0;
+                               rb2=0;
+                               delay_ms(quantum);
+                                                    } 
+                     else{
+                         if(quantum*contador3<time3){
+                               rb3=1;
+                               delay_ms(quantum);
+                               rb3=0;
+                               delay_ms(quantum);
+                                                     } 
+    
+                           }
+                         }
+
+                 if(contador1==4 && copia1<4) do_proceso1();                
+                 if(contador2==8 && copia2<8) do_proceso2();
+                 if(contador3==12 && copia3<12)do_proceso3();
+         
+       
+                 if(tecla_pulsada=='4'){
+                      break;
+                  }
+                  contador1++;
+                  contador2++;
+                
+              }
+                   if(tecla_pulsada=='4'){
+                     for (contador4=1;contador4<=16;contador4++){
+                    copia4=contador4;
+                    if(quantum*contador1<time1){
+                      rb4=1;
+                      rb3=1;
+                      rb2=1;
+                      rb1=1;
+                      delay_ms(quantum);
+                      rb4=0;
+                      rb3=1;
+                      rb2=0;
+                      rb1=0;
+                      delay_ms(quantum);
+                                               }
+                                               
+                   else  {
+                   
+                          if(quantum*contador2<time2){
+                               rb4=1;
+                               rb3=1;
+                               rb2=1;
+                               delay_ms(quantum);
+                               rb4=0;
+                               rb3=0;
+                               rb2=0;
+                               delay_ms(quantum);
+                                                    } 
+                     else{
+                         if(quantum*contador3<time3){
+                               rb4=1;
+                               rb3=1;
+                               delay_ms(quantum);
+                               rb4=0;
+                               rb3=0;
+                               delay_ms(quantum);
+                                                     } 
+                           else {
+                                   if(quantum*contador4<time4){
+                                     rb4=1;
+                                     delay_ms(quantum);
+                                     rb4=0;
+                                    delay_ms(quantum);
+                                }
+                                                     
+                           }
+                         }
+                       }
+                 if(contador1==4  &&  copia1<4) do_proceso1();
+                 if(contador2==8  &&  copia2<8) do_proceso2();
+                 if(contador3==12 &&  copia3<12) do_proceso3();
+                 if(contador4==16 &&  copia4<16) do_proceso4();
+                 
+                  contador1++;
+                  contador2++;
+                  contador3++;
+                  }
+              
+               }
+                  
+   }//

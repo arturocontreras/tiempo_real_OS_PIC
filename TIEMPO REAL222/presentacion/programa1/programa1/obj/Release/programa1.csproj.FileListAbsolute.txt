@@ -1,0 +1,16 @@
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\bin\Release\programa1.exe
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\bin\Release\programa1.pdb
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Release\programa1.Form_principal.resources
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Release\programa1.Properties.Resources.resources
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Release\programa1.csproj.GenerateResource.Cache
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Release\programa1.exe
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Release\programa1.pdb
+C:\presentacion\programa1\programa1\bin\Release\programa1.exe
+C:\presentacion\programa1\programa1\bin\Release\programa1.pdb
+C:\presentacion\programa1\programa1\obj\Release\ResolveAssemblyReference.cache
+C:\presentacion\programa1\programa1\obj\Release\programa1.Form_principal.resources
+C:\presentacion\programa1\programa1\obj\Release\programa1.Properties.Resources.resources
+C:\presentacion\programa1\programa1\obj\Release\programa1.csproj.GenerateResource.Cache
+C:\presentacion\programa1\programa1\obj\Release\programa1.exe
+C:\presentacion\programa1\programa1\obj\Release\programa1.pdb

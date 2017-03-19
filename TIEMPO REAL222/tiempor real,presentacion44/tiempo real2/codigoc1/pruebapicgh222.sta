@@ -1,0 +1,47 @@
+
+ROM used: 272 (1%)
+          272 (1%) including unused fragments
+
+          0 Average locations per line
+          3 Average locations per statement
+
+RAM used: 23 (1%) at main() level
+          24 (2%) worst case
+
+Stack used: 2 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   69    14  14  pruebapicgh222.c
+  354     0   0  C:\Program Files (x86)\PICC\devices\18f452.h
+  348    83  86  C:\Program Files (x86)\PICC\drivers\LCD.c
+----- -----
+  771    97 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   7   1             @delay_ms1
+0     24   4   0    94  2.5  timer0_isr
+0     62  11   0   188  2.3  MAIN
+
+Program metrics:
+    Functions               2
+    Statements              97
+    Comments                184
+    Volume (V)              344
+    Difficilty (D)          4.7
+    Effort to implement (E) 1605
+    Time to implement (T)   1 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    119
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00094   142  0  
+00096-07FFE   126  32492  
+
+
+

@@ -1,0 +1,3 @@
+>>> Warning 216 "avance22.c" Line 527(0,1): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+      Memory usage:   ROM=17%      RAM=3% - 4%
+      0 Errors,  1 Warnings.

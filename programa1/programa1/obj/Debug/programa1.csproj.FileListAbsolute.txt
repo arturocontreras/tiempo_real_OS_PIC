@@ -1,0 +1,80 @@
+C:\Documents and Settings\USER\Mis documentos\Visual Studio 2008\Projects\programa1\programa1\bin\Debug\programa1.exe
+C:\Documents and Settings\USER\Mis documentos\Visual Studio 2008\Projects\programa1\programa1\bin\Debug\programa1.pdb
+C:\Documents and Settings\USER\Mis documentos\Visual Studio 2008\Projects\programa1\programa1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\USER\Mis documentos\Visual Studio 2008\Projects\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+C:\Documents and Settings\USER\Mis documentos\Visual Studio 2008\Projects\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
+C:\Documents and Settings\USER\Mis documentos\Visual Studio 2008\Projects\programa1\programa1\obj\Debug\programa1.exe
+C:\Documents and Settings\USER\Mis documentos\Visual Studio 2008\Projects\programa1\programa1\obj\Debug\programa1.pdb
+C:\Documents and Settings\USER\Mis documentos\Visual Studio 2008\Projects\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+C:\Users\Arturo\Desktop\programa1\programa1\obj\Debug\programa1.exe
+C:\Users\Arturo\Desktop\programa1\programa1\obj\Debug\programa1.pdb
+C:\Users\Arturo\Desktop\programa1\programa1\bin\Debug\programa1.exe
+C:\Users\Arturo\Desktop\programa1\programa1\bin\Debug\programa1.pdb
+C:\Users\Arturo\Desktop\programa1\programa1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Arturo\Desktop\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+C:\Users\Arturo\Desktop\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+C:\Users\Arturo\Desktop\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.exe
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.pdb
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\programa1\programa1\bin\Debug\programa1.exe
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\programa1\programa1\bin\Debug\programa1.pdb
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\programa1\programa1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.exe
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.pdb
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\bin\Debug\programa1.exe
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\bin\Debug\programa1.pdb
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+C:\Users\Arturo\Desktop\tiempor real,presentacion\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion2\programa1\programa1\obj\Debug\programa1.exe
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion2\programa1\programa1\obj\Debug\programa1.pdb
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion2\programa1\programa1\bin\Debug\programa1.exe
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion2\programa1\programa1\bin\Debug\programa1.pdb
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion2\programa1\programa1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion2\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion2\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+C:\Documents and Settings\USER\Escritorio\tiempor real,presentacion2\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\TIEMPO REAL\tiempor real,presentacion44\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.exe
+C:\Users\pc\Desktop\TIEMPO REAL\tiempor real,presentacion44\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.pdb
+C:\Users\pc\Desktop\TIEMPO REAL\tiempor real,presentacion44\tiempor real,presentacion333\programa1\programa1\bin\Debug\programa1.exe
+C:\Users\pc\Desktop\TIEMPO REAL\tiempor real,presentacion44\tiempor real,presentacion333\programa1\programa1\bin\Debug\programa1.pdb
+C:\Users\pc\Desktop\TIEMPO REAL\tiempor real,presentacion44\tiempor real,presentacion333\programa1\programa1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pc\Desktop\TIEMPO REAL\tiempor real,presentacion44\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+C:\Users\pc\Desktop\TIEMPO REAL\tiempor real,presentacion44\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+C:\Users\pc\Desktop\TIEMPO REAL\tiempor real,presentacion44\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
+F:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.exe
+F:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.pdb
+F:\tiempor real,presentacion333\programa1\programa1\bin\Debug\programa1.exe
+F:\tiempor real,presentacion333\programa1\programa1\bin\Debug\programa1.pdb
+F:\tiempor real,presentacion333\programa1\programa1\obj\Debug\ResolveAssemblyReference.cache
+F:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+F:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+F:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
+E:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.exe
+E:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.pdb
+E:\tiempor real,presentacion333\programa1\programa1\bin\Debug\programa1.exe
+E:\tiempor real,presentacion333\programa1\programa1\bin\Debug\programa1.pdb
+E:\tiempor real,presentacion333\programa1\programa1\obj\Debug\ResolveAssemblyReference.cache
+E:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+E:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+E:\tiempor real,presentacion333\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
+D:\DOCUMENTOS ARTURO\tiempo real\programa1\programa1\obj\Debug\programa1.exe
+D:\DOCUMENTOS ARTURO\tiempo real\programa1\programa1\obj\Debug\programa1.pdb
+D:\DOCUMENTOS ARTURO\tiempo real\programa1\programa1\bin\Debug\programa1.exe
+D:\DOCUMENTOS ARTURO\tiempo real\programa1\programa1\bin\Debug\programa1.pdb
+D:\DOCUMENTOS ARTURO\tiempo real\programa1\programa1\obj\Debug\ResolveAssemblyReference.cache
+D:\DOCUMENTOS ARTURO\tiempo real\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+D:\DOCUMENTOS ARTURO\tiempo real\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+D:\DOCUMENTOS ARTURO\tiempo real\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
+E:\Info_Pc_home\DOCUMENTOS ARTURO\CURSOS 2012\tiempo real\programa1\programa1\obj\Debug\programa1.exe
+E:\Info_Pc_home\DOCUMENTOS ARTURO\CURSOS 2012\tiempo real\programa1\programa1\obj\Debug\programa1.pdb
+E:\Info_Pc_home\DOCUMENTOS ARTURO\CURSOS 2012\tiempo real\programa1\programa1\bin\Debug\programa1.exe
+E:\Info_Pc_home\DOCUMENTOS ARTURO\CURSOS 2012\tiempo real\programa1\programa1\bin\Debug\programa1.pdb
+E:\Info_Pc_home\DOCUMENTOS ARTURO\CURSOS 2012\tiempo real\programa1\programa1\obj\Debug\programa1.csprojResolveAssemblyReference.cache
+E:\Info_Pc_home\DOCUMENTOS ARTURO\CURSOS 2012\tiempo real\programa1\programa1\obj\Debug\programa1.Form_principal.resources
+E:\Info_Pc_home\DOCUMENTOS ARTURO\CURSOS 2012\tiempo real\programa1\programa1\obj\Debug\programa1.Properties.Resources.resources
+E:\Info_Pc_home\DOCUMENTOS ARTURO\CURSOS 2012\tiempo real\programa1\programa1\obj\Debug\programa1.csproj.GenerateResource.Cache
